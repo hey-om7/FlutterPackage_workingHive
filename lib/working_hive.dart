@@ -14,7 +14,7 @@ class WorkingHive {
         Hive.init(initPath);
       }
     } catch (e) {
-      print('error initiating' + e);
+      print('error initiating' + e.toString());
     }
   }
 
@@ -34,7 +34,7 @@ class WorkingHive {
     try {
       box.delete(key).then((value) => print('deleted value from key: $key'));
     } catch (e) {
-      print('working hive plugin error: $e');
+      print('working hive plugin error: ' + e.toString());
     }
   }
 }

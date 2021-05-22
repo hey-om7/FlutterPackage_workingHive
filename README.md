@@ -2,7 +2,7 @@
 
 ## Easiest package which helps to work with the hive package
 
-![https://www.buymeacoffee.com/heyom](https://github.com/hey-om7/FlutterPackage_getContentsFrom/blob/main/forReadme/buymecoffee.png)
+![https://www.buymeacoffee.com/heyom](https://github.com/hey-om7/FlutterPackage_workingHive/blob/main/forReadme/buymecoffee.png)
 https://www.buymeacoffee.com/heyom
 
 ---
@@ -29,16 +29,16 @@ https://www.buymeacoffee.com/heyom
 
 # Extreme Simple use of the package
 
-## Set a path where you want to store the hive data
-
-```
- hive.initPath = 'what ever your path is';
-```
-
 ## Initialize the class
 
 ```
 var hive = WorkingHive();
+```
+
+## Set a path where you want to store the hive data
+
+```
+ hive.initPath = 'what ever your path is';
 ```
 
 ## Initialize the hive

@@ -1,11 +1,11 @@
 name: working_hive
 description: Great flutter plugin which makes Working with Hive easier
 version: 0.0.1
-author:
+# author:
 homepage: https://github.com/hey-om7/FlutterPackage_workingHive
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
